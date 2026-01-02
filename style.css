@@ -83,19 +83,4 @@ button:hover {
     overflow-y: auto;
     font-size: clamp(0.9rem, 2.5vw, 1.2rem);
 }
-.link-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 0px;
-    padding: 0px;
-}
-@media (max-width: 600px) {
-    .controls {
-        flex-direction: column;
-    }
 
-    .top {
-        flex-direction: row;
-    }
-}
